@@ -1,10 +1,20 @@
 [package]
 name = "slent"
 version = "0.1.0"
-authors = ["jackokring <jackokring@gmail.com>"]
+authors = ["Simon Jackson <jackokring@gmail.com>"]
 edition = "2021"
 build = "build.rs"
 description = "slent with a silent i"
+repository = "https://github.com/jackokring/slent.git"
+license-file = "LICENSE"
+
+keywords = []
+# Max 5 from https://crates.io/category_slugs
+categories = []
+# registry
+publish = ["crates.io"]
+# Lib natives e.g.
+# links = "git2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
