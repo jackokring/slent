@@ -10,7 +10,8 @@ license-file = "LICENSE"
 
 keywords = []
 # Max 5 from https://crates.io/category_slugs
-categories = []
+# So an embedding of python ...
+categories = [ "development-tools::ffi" ]
 # registry
 publish = ["crates.io"]
 # Lib natives e.g.
@@ -23,3 +24,8 @@ slint = "1.4"
 
 [build-dependencies]
 slint-build = "1.4"
+
+[dependencies.pyo3]
+version = "0.20.2"
+features = ["auto-initialize"]
+

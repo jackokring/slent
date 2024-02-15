@@ -6,8 +6,24 @@
 
 1. I must remember to build in a licence notice in the about menu as per the
 instructions for a free desktop and web licence of slint.
+2. Add in "embedded" python and some `.bashrc` (it's one way of making a binding).
+	```
+	alias venv='python -m venv'
 
---
+	# clean cargo better
+	valet() {
+		if [ -e "./target/" ]; then
+			# move executables to base directory
+			mkdir -p ./valet
+			find ./target -type f -executable -exec mv {} ./valet \;
+			# remove the target and build directories
+			cargo clean
+		fi
+	}
+	```
+3. Profit. ;D
+
+---
 
 # Slint Rust Template (Origional README.md)
 
