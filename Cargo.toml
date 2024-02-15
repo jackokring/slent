@@ -1,0 +1,15 @@
+[package]
+name = "slent"
+version = "0.1.0"
+authors = ["jackokring <jackokring@gmail.com>"]
+edition = "2021"
+build = "build.rs"
+description = "slent with a silent i"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.4"
+
+[build-dependencies]
+slint-build = "1.4"
