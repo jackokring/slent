@@ -12,13 +12,16 @@ instructions for a free desktop and web licence of slint.
 
 	# clean cargo better
 	valet() {
-		if [ -e "./target/" ]; then
-			# move executables to base directory
-			mkdir -p ./valet
-			find ./target -type f -executable -exec mv {} ./valet \;
-			# remove the target and build directories
-			cargo clean
-		fi
+		# move executables to base directory
+		mkdir -p ./valet
+		find ./target -type f -executable -exec mv {} ./valet \;
+		# remove the target and build directories
+		cargo clean
+		mkdir -p ./target
+		# find the latest
+		cp $(/usr/bin/ls -At ./valet | head -n 1) ./target
+		# make it the only contents of target
+		rm -r ./valet
 	}
 	```
 3. Profit. ;D
