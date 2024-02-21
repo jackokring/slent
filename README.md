@@ -25,6 +25,10 @@ instructions for a free desktop and web licence of slint.
 	}
 	```
 3. Profit. ;D
+4. A canvas object.
+5. Best way of CLI parsing for batch code.
+6. Chop off extra render modes as 200 MB for a demo debug is big.
+7. ...
 
 ---
 
