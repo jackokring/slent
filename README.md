@@ -25,9 +25,13 @@ instructions for a free desktop and web licence of slint.
 	}
 	```
 3. Profit. ;D
-4. A canvas object.
-5. Best way of CLI parsing for batch code.
+4. A canvas object. Ah, a nice pass time app too.
+5. Best way of CLI parsing for batch code. `clap` for rust.
 6. Chop off extra render modes as 200 MB for a demo debug is big.
+  * Learn features of `cargo build --features` pass to submodule.
+  * Wayland build suitable for me.
+  * Canvas drawing library in common with GUI library?
+  * Check `features` for `clap` in `Cargo.toml`?
 7. ...
 
 ---
