@@ -32,7 +32,7 @@ instructions for a free desktop and web licence of slint.
   * Wayland build suitable for me.
   * Canvas drawing library in common with GUI library?
   * Check `features` for `clap` in `Cargo.toml`?
-7. Try a `which $CMD | wc -l` for checking `std::process::Command`.
+7. Try a `test $(which $CMD | wc -l) == 1` for checking `std::process::Command`.
 8. ...
 
 ---
