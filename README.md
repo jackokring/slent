@@ -1,6 +1,10 @@
 # Slent (A Bad Pancake Day Joke 2024)
 
-
+So after a stall of VSCode and some `rustc` build still happening on all cores
+with an `lto` optimization still going on but maybe slightly shorter due to
+using the BSD linker, and a NOT RESPONDING for a while now, I'm unlikely to enjoy
+the gigabytes of rust. Language looked promising, but seems it was designed by
+a supercomputer salesman.
 
 ## Must Do
 
